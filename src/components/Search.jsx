@@ -13,6 +13,8 @@ function Search(){
         setInput(e.target.value)
         if(input.length > 0){
             getSuggestions(input);
+        }else{
+            setSuggestions([]);
         }
     }
 
@@ -39,7 +41,7 @@ function Search(){
             <div className="row">
                 <div className="col-md-4 mx-auto">
                     <form action="#">
-                        <div className="form-group">
+                        <div className="form-group position-relative">
                             <input type="text" value={input} className="form-control home-search-bar" placeholder="Rechercher" onChange={inputChangeHandler}/>
                             <div className="suggests mt-2">
                                 <div className="card">

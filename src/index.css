@@ -68,3 +68,10 @@
     color: white;
     background-color: rgb(13,110,253);
 }
+.suggests{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 27rem;
+    z-index: 1;
+}
