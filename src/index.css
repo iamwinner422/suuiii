@@ -24,6 +24,10 @@
     font-weight: bold;
     margin: 2rem 0;
 }
+.subtitles{
+    font-weight: 700;
+    margin: 1rem 0;
+}
 .home-song-gradient{
     z-index: 3;
     border-radius: 1rem;
@@ -54,4 +58,13 @@
     color: #fafafa;
     font-size: 1.3rem;
     font-weight: 600;
+}
+.home-search-bar{
+    border-radius: 1.5rem !important;
+    height: 3rem;
+    text-align: center;
+}
+.list-group-flush:first-child{
+    color: white;
+    background-color: rgb(13,110,253);
 }

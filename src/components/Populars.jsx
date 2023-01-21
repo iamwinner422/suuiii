@@ -28,7 +28,7 @@ function Populars(){
             setPopulars(JSON.parse(check));
         }else{
             /* C'est une requête de récupération à l'API. */
-            fetch('https://shazam.p.rapidapi.com/charts/track?locale=fr-FR&pageSize=10&startFrom=0',{
+            fetch('https://shazam.p.rapidapi.com/charts/track?locale=fr-FR&pageSize=20&startFrom=0',{
                 "method":"GET",
                 "headers":{
                     "x-rapidapi-host": "shazam.p.rapidapi.com",
@@ -52,7 +52,7 @@ function Populars(){
                 </div>
                 <Splide options={{
                     perPage:4,
-                    arrows:false,
+                    arrows:true,
                     pagination:true,
                     drag:'free',
                     perMove:1,
