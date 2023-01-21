@@ -64,6 +64,13 @@
     height: 3rem;
     text-align: center;
 }
+.list-group{
+    cursor: pointer;
+}
+.list-group:hover{
+    color: white;
+    background-color: rgb(13,110,253);
+}
 .list-group-flush:first-child{
     color: white;
     background-color: rgb(13,110,253);
